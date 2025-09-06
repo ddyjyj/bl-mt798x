@@ -42,12 +42,12 @@
 
 		led@0 {
 			label = "red:system";
-			gpios = <&gpio 35 GPIO_ACTIVE_LOW>;
+			gpios = <&gpio 34 GPIO_ACTIVE_LOW>;
 		};
 
 		led@1 {
 			label = "white:system";
-			gpios = <&gpio 34 GPIO_ACTIVE_LOW>;
+			gpios = <&gpio 35 GPIO_ACTIVE_LOW>;
 		};
 
 	};
