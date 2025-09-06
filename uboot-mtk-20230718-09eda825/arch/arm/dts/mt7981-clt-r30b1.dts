@@ -65,7 +65,7 @@
 
 		led@0 {
 			label = "red:power";
-			gpios = <&gpio 13 GPIO_ACTIVE_LOW>;
+			gpios = <&gpio 11 GPIO_ACTIVE_LOW>;
 		};
 
 		system_led: led@1 {
@@ -80,19 +80,19 @@
 
 		led@3 {
 			label = "green:system";
-			gpios = <&gpio 8 GPIO_ACTIVE_LOW>;
+			gpios = <&gpio 12 GPIO_ACTIVE_LOW>;
 			default-state = "on";
 			linux,default-trigger = "default-on";
 		};
 
 		led@4 {
 			label = "blue:internet";
-			gpios = <&gpio 11 GPIO_ACTIVE_LOW>;
+			gpios = <&gpio 13 GPIO_ACTIVE_LOW>;
 		};
 
 		led@5 {
 			label = "blue:mesh";
-			gpios = <&gpio 12 GPIO_ACTIVE_LOW>;
+			gpios = <&gpio 8 GPIO_ACTIVE_LOW>;
 		};
 
 		led@6 {
