@@ -45,7 +45,7 @@
 
 		led-1 {
 			label = "green:wan";
-			gpios = <&gpio 8 GPIO_ACTIVE_LOW>;
+			gpios = <&gpio 12 GPIO_ACTIVE_LOW>;
 		};
 
 		mesh_led: led-2 {
